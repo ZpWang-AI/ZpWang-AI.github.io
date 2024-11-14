@@ -13,9 +13,10 @@ title_separator          : "-"
 name                     : &name "Zhipang (William) Wang"
 description              : &description "NLP researcher at Soochow University"
 url                      : https://ZpWang-AI.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-# repository               : "ZpWang-AI/ZpWang-AI.github.io"
-repository               : "ZpWang-AI.github.io"
+# url                      : http://localhost:4000
+baseurl                  : "/academic_pages" # the subpath of your site, e.g. "/blog"
+repository               : "ZpWang-AI/ZpWang-AI.github.io"
+# repository               : "ZpWang-AI.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -33,9 +34,9 @@ author:
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=PrjdrLkAAAAJ"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0009-0006-5970-5680"
   semantic         : # URL
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
