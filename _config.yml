@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Zhipang (William) Wang"
+title                    : "ZpWang's Personal Academic Website"
 title_separator          : "-"
 name                     : &name "Zhipang (William) Wang"
 description              : &description "NLP researcher at Soochow University"
@@ -25,8 +25,8 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Zhipang (William) Wang"
-  pronouns         : # example: "she/her"  
-  bio              : "NLP researcher at Soochow University"
+  pronouns         : "he/him" # example: "she/her"  
+  bio              : "NLP researcher"
   location         : "Suzhou, Jiangsu, China"
   employer         : "Soochow University"
   uri              : # URL
@@ -38,7 +38,7 @@ author:
   impactstory      : # URL
   orcid            : "https://orcid.org/0009-0006-5970-5680"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
 
@@ -47,11 +47,11 @@ author:
   codepen          : # Username
   dribbble         : # Username
   github           : "ZpWang-AI"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  kaggle           : "wangzp16" # Username  
+  stackoverflow    : "Zhipang Wang" # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -68,13 +68,13 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : # Username for X / Twitter
+  twitter          : "ZhipangW6255" # Username for X / Twitter
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
   xing             : # Username
   youtube          : # Username
-  zhihu            : # Username
+  zhihu            : # "Quantum" # Username
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
