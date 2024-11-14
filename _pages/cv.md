@@ -13,7 +13,7 @@ redirect_from:
 
 <!-- [Download PDF](https://zpwang-ai.github.io/files/Academic_CV_zp.pdf). -->
 
-![/files/Academic_CV_zp.png](CV)
+<!-- ![/files/Academic_CV_zp.png](CV) -->
 
 ![CV](/files/Academic_CV_zp.png)
 
