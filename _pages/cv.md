@@ -13,10 +13,10 @@ redirect_from:
 
 <!-- [Download PDF](https://zpwang-ai.github.io/files/Academic_CV_zp.pdf). -->
 
-<embed src="/files/Academic_CV_zp.pdf", width=500>
+<embed src="/files/Academic_CV_zp.pdf", width="100%">
 
 
-<iframe src="/files/Academic_CV_zp.pdf" style="width:100%; height:600px;" frameborder="0"></iframe>
+<iframe src="/files/Academic_CV_zp.pdf" style="width:100%; height:100%;" frameborder="0"></iframe>
 
 
 <!-- <embed src="/files/Academic_CV_zp.pdf" width="600" height="500"> -->
