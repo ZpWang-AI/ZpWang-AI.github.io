@@ -15,6 +15,9 @@ redirect_from:
 
 ![/files/Academic_CV_zp.png](CV)
 
+![CV](/files/Academic_CV_zp.png)
+
+
 <!-- <embed src="/files/Academic_CV_zp.pdf", width=500>
 
 
