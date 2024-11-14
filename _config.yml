@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "ZpWang"
+title                    : "Zhipang (William) Wang"
 title_separator          : "-"
 name                     : &name "Zhipang (William) Wang"
 description              : &description "NLP researcher at Soochow University"

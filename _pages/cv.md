@@ -9,9 +9,15 @@ redirect_from:
 
 {% include base_path %}
 
-You can download it [here](https://zpwang-ai.github.io/files/Academic_CV_zp.pdf).
+<a href="https://zpwang-ai.github.io/files/Academic_CV_zp.pdf" download>Download PDF</a>
 
-<embed src="/files/Academic_CV_zp.pdf">
+<!-- [Download PDF](https://zpwang-ai.github.io/files/Academic_CV_zp.pdf). -->
+
+<embed src="/files/Academic_CV_zp.pdf", width="">
+
+@import "/files/Academic_CV_zp.pdf"
+
+
 
 <!-- <embed src="/files/Academic_CV_zp.pdf" width="600" height="500"> -->
 
