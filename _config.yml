@@ -23,7 +23,7 @@ repository               : "ZpWang-AI/ZpWang-AI.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "chat_picture.drawio.png"
   name             : "Zhipang (William) Wang"
   pronouns         : "he/him" # example: "she/her"  
   bio              : "NLP researcher"

@@ -7,9 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my academic website. You can get to know something about me here.
+Welcome to my academic website!
 
+I'm a Master student of the [School of Computer Science and Technology, Soochow University](https://scst.suda.edu.cn/).
 
+I'm seeking a challenging position in natural language processing to leverage my expertise in deep learning and language models. Aiming to contribute to innovative projects at the intersection of discourse analysis and large language models, and applying these technologies to practical problem-solving in fields such as implicit discourse relation recognition.
 
 ------
 
@@ -17,7 +19,7 @@ This web is built by [this Github repo](https://github.com/ZpWang-AI/ZpWang-AI.g
 
 <div class="page__footer-copyright">
   &copy; {{ site.time | date: '%Y' }} {{ Zhipang (William) Wang | default: site.title }}, {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
-  Site last updated {{ "now" | date: '%Y-%m-%d %H:%M:%S.%F' %}}
+  Site last updated {{ "now" | date: '%Y-%m-%d %H:%M:%S' %}}
 </div>
 
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
