@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "ZpWang's Personal Academic Website"
+title                    : "ZpWang"
 title_separator          : "-"
 name                     : &name "Zhipang (William) Wang"
 description              : &description "NLP researcher at Soochow University"
@@ -48,7 +48,7 @@ author:
   dribbble         : # Username
   github           : "ZpWang-AI"
   kaggle           : "wangzp16" # Username  
-  stackoverflow    : "Zhipang Wang" # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  stackoverflow    : "23507735/zhipang-wang" # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   bluesky          : # "bsky.app" # Replace this with you Bluesky username
