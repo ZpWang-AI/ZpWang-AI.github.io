@@ -9,13 +9,14 @@ redirect_from:
 
 Welcome to my academic website. You can get to know something about me here.
 
-This web is built by [this repo](https://github.com/ZpWang-AI/ZpWang-AI.github.io)
 
 
 ------
 
+This web is built by [this Github repo](https://github.com/ZpWang-AI/ZpWang-AI.github.io).
+
 <div class="page__footer-copyright">
-  &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}, {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
+  &copy; {{ site.time | date: '%Y' }} {{ Zhipang (William) Wang | default: site.title }}, {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
   Site last updated {{ "now" | date: '%Y-%m-%d %H:%M:%S.%F' %}}
 </div>
 
