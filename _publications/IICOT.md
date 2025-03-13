@@ -2,7 +2,7 @@
 title: "Enhancing Reasoning Capabilities by Instruction Learning and Chain-of-Thoughts for Implicit Discourse Relation Recognition"
 collection: publications
 category: conferences
-permalink: /publication/L2DPAR
+permalink: /publication/IICOT
 excerpt: 'This paper proposes a novel approach, IICOT, that leverages generative models, instruction learning, and chain-of-thoughts to enhance reasoning capabilities for implicit discourse relation recognition, achieving state-of-the-art performance on benchmark datasets.'
 date: 2023-12
 venue: 'Findings of the Association for Computational Linguistics (EMNLP 2023) '
