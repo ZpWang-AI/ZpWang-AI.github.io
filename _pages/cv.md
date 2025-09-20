@@ -9,13 +9,13 @@ redirect_from:
 
 {% include base_path %}
 
-<a href="https://zpwang-ai.github.io/files/Academic_CV_zp.pdf" download>Download PDF</a>
+<a href="https://zpwang-ai.github.io/files/zpwang_resume_2025.pdf" download>Download PDF</a>
 
 <!-- [Download PDF](https://zpwang-ai.github.io/files/Academic_CV_zp.pdf). -->
 
 <!-- ![/files/Academic_CV_zp.png](CV) -->
 
-![CV](/files/Academic_CV_zp.png)
+![CV](/files/zpwang_resume_2025.png)
 
 
 <!-- <embed src="/files/Academic_CV_zp.pdf", width=500>

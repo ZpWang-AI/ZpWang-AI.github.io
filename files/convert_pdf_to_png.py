@@ -16,7 +16,7 @@ def concatenate_pdf(pdf_paths, output_pdf_path):
     with open(output_pdf_path, 'wb') as out_pdf:
         pdf_writer.write(out_pdf)
 
-def pdf_to_png(pdf_path, output_folder):
+def pdf_to_png(pdf_path, ):
     print(pdf_path)
     images = convert_from_path(
         pdf_path, poppler_path=r'D:\NewDownload\Release-24.08.0-0\poppler-24.08.0\Library\bin',
@@ -55,7 +55,8 @@ def main():
     # print(f'Combined PDF saved as: {output_pdf}')
 
     # Convert to PNG
-    pdf_to_png(r'D:\ZpWang\Projects\01.02-AcademicPages\ZpWang-AI.github.io\files\Academic_CV_zp.pdf', r'D:\ZpWang\Projects\01.02-AcademicPages\ZpWang-AI.github.io\files')
+    # pdf_to_png(r'D:\ZpWang\Projects\01.02-AcademicPages\ZpWang-AI.github.io\files\Academic_CV_zp.pdf', r'D:\ZpWang\Projects\01.02-AcademicPages\ZpWang-AI.github.io\files')
+    pdf_to_png(r'D:\ZpWang\Projects\01.02-AcademicPages\ZpWang-AI.github.io\files\zpwang_resume_2025.pdf')
     # pdf_to_png(r'Academic_CV_zp.pdf', r'D:\ZpWang\Projects\01.02-AcademicPages\ZpWang-AI.github.io\files')
  
 if __name__ == '__main__':
