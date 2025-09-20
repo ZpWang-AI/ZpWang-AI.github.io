@@ -10,6 +10,8 @@ paperurl: 'https://doi.org/10.18653/v1/2023.findings-emnlp.374'
 # citation: '' # "Zhipang Wang, Yu Hong, Yuxiang Lu, Xiabing Zhou, Jianmin Yao, and Guodong Zhou. 2024. Learning to Differentiate Pairwise-Argument Representations for Implicit Discourse Relation Recognition. In Proceedings of the 33rd ACM International Conference on Information and Knowledge Management (CIKM '24). Association for Computing Machinery, New York, NY, USA, 2503–2512."
 ---
 
+> Yuxiang Lu, *Yu Hong, **Zhipang Wang**, Guodong Zhou
+
 
 ## Abstract
 

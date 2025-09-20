@@ -12,6 +12,8 @@ paperurl: 'https://doi.org/10.1145/3627673.3679584'
 
 <!-- [Code of Github](https://github.com/ZpWang-AI/L2DPAR) is coming soon. -->
 
+> **Zhipang Wang**, *Yu Hong, Yuxiang Lu, Xiabing Zhou, Jianming Yao, Guodong Zhou
+
 
 ## Implicit Discourse Relation Recognition: A Joint Learning Framework
 
