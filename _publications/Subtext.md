@@ -3,7 +3,7 @@ title: "Using Subtext to Enhance Generative IDRR"
 collection: publications
 category: conferences
 permalink: /publication/Subtext
-excerpt: 'This paper proposes a joint learning framework that combines prototypical learning, adversarial learning, and hub-migration based redistribution to enhance the performance of Pre-trained Language Models (PLMs) for Implicit Discourse Relation Recognition (IDRR).'
+excerpt: 'This paper introduces a Subtext-based Confidence-diagnosed Dual-channel Network (SCDN) for enhancing Implicit Discourse Relation Recognition (IDRR) by incorporating subtexts generated through LLaMA. The approach demonstrates significant improvements in recognizing semantic relations between argument pairs, highlighting the importance of subtexts as valuable contextual clues that enrich the understanding of implicit relations, ultimately resulting in higher F1-scores on benchmark datasets.'
 date: 2025-07-1
 venue: 'Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers) (ACL 2025)'
 paperurl: 'https://aclanthology.org/2025.acl-short.35/'
@@ -13,22 +13,20 @@ paperurl: 'https://aclanthology.org/2025.acl-short.35/'
 <!-- [Code of Github](https://github.com/ZpWang-AI/L2DPAR) is coming soon. -->
 
 
-## Implicit Discourse Relation Recognition: A Joint Learning Framework
+> **Zhipang Wang**, *Yu Hong, Weihao Sun, Guodong Zhou
 
-Implicit Discourse Relation Recognition (IDRR) is a challenging task that involves recognizing relationships between texts without explicit connectives. This paper proposes a joint learning framework that combines prototypical learning, adversarial learning, and hub-migration based redistribution to enhance the performance of Pre-trained Language Models (PLMs) for IDRR. The framework is designed to produce more distinguishable argument representations, which is crucial for connective-free relation determination.
 
-## Key Contributions:
+## Motivation
 
-* A joint learning framework that combines three learning methods to enhance PLMs for IDRR
-Prototypical learning that uses contrastive learning to guide the encoder to produce more typical representations
-* Adversarial learning that generates highly distracting examples to improve the robustness of the model
-* Hub-migration based redistribution that disperses the centers of all classes in the feature space and drives in-class samples to converge towards the centers
+The motivation behind this research stems from the need to enhance Implicit Discourse Relation Recognition (IDRR) by leveraging subtexts, which can offer deeper insights into the semantic relationships between argument pairs. Traditional models often overlook these connotative meanings, leading to suboptimal performance in recognizing implicit relations.
 
-## Experimental Results:
+## Methodology
 
-* The proposed framework achieves substantial improvements compared to BERT, RoBERTa, and DeBERTa baselines on PDTB 2.0, PDTB 3.0, and CoNLL-2016 datasets
-* The framework outperforms previous work in the scenario of connective-free IDRR and obtains comparable performance to some of the connective-exposed IDRR models
+We introduced a Subtext-based Confidence-diagnosed Dual-channel Network (SCDN) that utilizes a generative approach with LLaMA to produce subtexts for argument pairs. The architecture consists of three models: Mα for subtext generation, Mβ for out-of-subtext IDRR, and Mλ for in-subtext IDRR. This dual-channel approach allows for a nuanced understanding of relations by reconciling outputs based on confidence levels.
 
-## Conclusion:
+## Experimental Results
+Our experiments were conducted on the PDTB-2.0 and PDTB-3.0 datasets, where we evaluated the performance of our SCDN against existing benchmarks. The results demonstrated significant improvements in F1-scores compared to baseline models, affirming the effectiveness of incorporating subtexts in the IDRR task. An ablation study further confirmed that the use of subtexts enhances model performance across various relation types.
 
-This paper proposes a joint learning framework that enhances PLMs for IDRR by producing more distinguishable argument representations. The framework combines prototypical learning, adversarial learning, and hub-migration based redistribution to improve the performance of IDRR models. Experimental results demonstrate the effectiveness of the proposed framework, which achieves state-of-the-art performance on several benchmark datasets.
+## Conclusion
+In summary, our findings indicate that integrating subtexts into IDRR significantly strengthens the model's ability to discern implicit relations. This work not only contributes to the field of natural language processing by filling a gap in IDRR research but also sets the stage for future exploration of common-sense knowledge in subtext generation. Our approach opens avenues for improving relational understanding in NLP tasks, emphasizing the importance of semantic nuances in enhancing model performance.
+

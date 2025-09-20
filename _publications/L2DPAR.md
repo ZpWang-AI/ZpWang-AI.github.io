@@ -3,7 +3,7 @@ title: "Learning to Differentiate Pairwise-Argument Representations for Implicit
 collection: publications
 category: conferences
 permalink: /publication/L2DPAR
-excerpt: 'This paper proposes a joint learning framework that combines prototypical learning, adversarial learning, and hub-migration based redistribution to enhance the performance of Pre-trained Language Models (PLMs) for Implicit Discourse Relation Recognition (IDRR).'
+excerpt: 'This paper proposes a joint learning framework that combines prototypical learning, adversarial learning, and hub-migration based redistribution to enhance the performance of Pre-trained Language Models (PLMs) for implicit discourse relation recognition.'
 date: 2024-10-21
 venue: 'Proceedings of the 33rd ACM International Conference on Information and Knowledge Management (CIKM 2024)'
 paperurl: 'https://doi.org/10.1145/3627673.3679584'
